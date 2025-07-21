@@ -1,0 +1,168 @@
+*{
+    font-family:Roboto;
+}
+body{
+    display: flex;
+    flex-direction:column;
+    background-color: #1f2937;
+}
+.header{
+display:flex;
+background-color: #1f2937;
+justify-content:space-evenly;
+flex:1;
+padding:16px;
+margin-bottom:50px;
+}
+.right-links{
+    display:flex;
+    align-items: center;
+}
+ul{
+    display:flex;
+    margin:0px;
+    padding:0px;
+    list-style-type: none;
+    gap:16px;
+}
+a{
+text-decoration: none;
+color: white;
+}
+.logo{
+color: #f9faf8;
+font-size: 24px;
+}
+.lol{
+    background-color:lightskyblue;
+}
+.awesome{
+    background-color: #1f2937;
+    gap:250px;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    margin-bottom:50px;
+}
+.dusra img{
+    width:300px;
+    height:auto;
+}
+.web{
+    display:flex;
+    flex-direction:column;
+}
+button{
+    width:80px;
+    font-size: 18px;
+    color:#e5e7eb;
+}
+.chotu{
+    color:#f9faf8;
+    font-size: 48px;
+    font-weight: 900;
+    max-width:280px; 
+}
+.badu{
+    display:flex;
+    font-size: 18px;
+    color:#e5e7eb;
+    flex-wrap:wrap;
+    max-width:200px; 
+}
+p{
+    margin:0px;
+}
+button:hover{
+    background-color: white;
+}
+.leader{
+    background-color: white;
+    padding:80px;
+  
+}
+.title{
+    text-align: center;
+    font-size: 28px;
+    margin-bottom:50px;
+    
+}
+.chu{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center
+
+}
+.raone{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    width:300px;
+}
+.raone img{
+    width:200px;
+    height:200px;
+    border:4px;
+    border-color: blue;
+}
+.text{
+    display: flex;
+    flex-wrap: wrap;
+    max-width:200px;
+}
+.chalu{
+    background-color: #E5E7EB;
+    display:Flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    height:400px;
+    width:auto;
+}
+.quote{
+    width:800px;
+    font-size:36px;
+    color:#1f2937;
+    font-style: italic;
+    font-weight: light;
+}
+.aloo{
+display: flex;
+flex-direction: column;
+align-items: flex-end;
+}
+.author p{
+    font-weight:bold;
+}
+.panxey{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:400px;
+    background-color:white;
+}
+.daya{
+    background-color:#3882f6;
+    display:flex;
+    padding:80px;
+    width: 800px;
+    justify-content:space-around;
+    align-items:center;
+}
+.yadav{
+    color:#f9faf8;
+}
+.jetha{
+    font-size: 24px;
+    font-weight: 900;
+}
+.footer{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:#f9faf8;
+}
+.sign button{
+    background-color: #3882f6;
+    width:120px;
+}

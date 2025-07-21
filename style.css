@@ -148,6 +148,7 @@ align-items: flex-end;
     width: 800px;
     justify-content:space-around;
     align-items:center;
+    border-radius: 15px;
 }
 .yadav{
     color:#f9faf8;
@@ -158,6 +159,7 @@ align-items: flex-end;
 }
 .footer{
     display:flex;
+    flex-direction: column;
     justify-content:center;
     align-items:center;
     color:#f9faf8;
@@ -165,4 +167,11 @@ align-items: flex-end;
 .sign button{
     background-color: #3882f6;
     width:120px;
+    color: #e5e7eb;
+}
+.shal{
+    outline: 2px solid blue;
+    height:200px;
+    margin:25px;
+    border-radius:5px;
 }
